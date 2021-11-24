@@ -1,0 +1,33 @@
+---
+title: "k-means clustering problem"
+subtitle: "group12"
+author: "Delyan Kirov, Steph Deal"
+citation_package: biblatex
+date: \today
+bibliography: referencing.bib
+output:  
+     bookdown::pdf_document2: 
+       keep_tex:  true
+     bookdown::html_document2: default
+link-citations: yes
+biblio-style: "apalike"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Meeting summary
+testing
+
+# Main body
+testing
+
+# Notes
+referencing plots/graphs "[\@ref(fig:"name")]"
+\newline
+referencing articles "[@"reference tag"]"
+\newline
+To reference an article, please copy and paste into the file referencing.bib
+
+# References
